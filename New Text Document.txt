@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+void add(int number1 , int number2);
+void multiply(int number1 , int number2);
+void divide(int number1 , int number2);
+void subtract(int number1 , int number2);
+
+main(){
+float number1;
+float number2; 
+
+cout << "Enter 1st number: ";
+cin >> number1;
+cout << "Enter 2nd number: ";
+cin >> number2;
+
+}
+
+void add(int number1 , int number2){
+float sum = number1 + number2;
+cout << "Sum: "<<sum<<endl;
+}
+
+void multiply(int number1 , int number2){
+float multiply = number1 + number2;
+cout << "Product: "<<multiply<<endl;
+}
+
+void divide(int number1 , int number2){
+float divide = number1 + number2;
+cout << "Divide: "<<divide<<endl;
+}
+
+void subtract(int number1 , int number2){
+float subtract = number1 + number2;
+cout << "Subtract: "<<subtract<<endl;
+}
